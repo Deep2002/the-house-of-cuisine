@@ -1,10 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import HomePage from "./Pages/HomePage";
 
 function App() {
-  return (
-    <h1 className="text-center text-3xl font-bold underline">Hello world!</h1>
-  );
+  return <HomePage />;
 }
 
 export default App;
